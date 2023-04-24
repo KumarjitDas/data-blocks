@@ -6,10 +6,9 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import globalStyles from "./styles/global.css";
+import "@/styles/global.css";
 
 export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: globalStyles },
   { rel: "icon", href: "/favicon.svg", type: "image/x-icon" },
 ];
 
