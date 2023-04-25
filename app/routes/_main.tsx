@@ -7,8 +7,8 @@ export default function MainLayout() {
     <SidebarProvider>
       <AppSidebar />
 
-      <main>
-        <SidebarTrigger />
+      <main className={"w-full relative"}>
+        <SidebarTrigger className={"absolute"} />
 
         <div className="min-h-screen flex flex-col bg-gray-900 text-white">
           <header className="p-4 bg-gray-800 border-b border-gray-700">
